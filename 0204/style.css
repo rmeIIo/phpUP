@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --main-color: #243f56;
+    --secondary-color: #4fb291;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+
+.container {
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/69f692fba32652d283a62eee/vccvv-min.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.title h1 {
+    font-weight: 400;
+    font-size: 2.625rem;
+    color: var(--main-color);
+}
+
+.title h2 {
+    font-weight: 700;
+    font-size: 2.625rem;
+    color: var(--main-color);
+}
+
+.exercise01, .exercise02 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.25rem;
+    padding-bottom: 10%;
+}
+
+.exercise01 {
+    background: var(--main-color);
+    color: #ffffff;
+}
+
+.titleExercise {
+    font-size: 3rem !important;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    display: flex;
+    align-self: center;
+}
+
+.exercise02 {
+    color: var(--main-color);
+}

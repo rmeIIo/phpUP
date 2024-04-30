@@ -1,15 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    height: 100vh;
+main {
+    height: 90vh;
+}
+
+footer {
+    height: 10vh;
+    color: #FFFFFF;
+}
+
+main, footer {
     width: 100vw;
-    background: linear-gradient(180deg, #807ece 0%, #8e7ece 100%);
-    display: grid;
-    place-content: center;
+    background: #867ece;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 body * {
@@ -39,13 +50,10 @@ body * {
     text-align: right;
     font-size: 20px;
     line-height: 140%;
-    color: #6b6b6b;
-}
-
-#result {
-    margin-top: 8px;
-    display: flex;
-    justify-content: space-between;
+    color: #ffffff;
+    fill: none;
+    background: transparent;
+    border: none;
 }
 
 #result span {
@@ -56,9 +64,9 @@ body * {
 
 #teclado {
     padding: 26px 32px 32px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
@@ -79,6 +87,8 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    margin: 3px;
 }
 
 .secondary {
